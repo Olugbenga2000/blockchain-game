@@ -1,0 +1,20 @@
+{
+  "name": "cryptovirus",
+  "version": "1.0.0",
+  "description": "A blockchain game that uses NFTs",
+  "main": "truffle-config.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "^3.2.0",
+    "@openzeppelin/test-helpers": "^0.5.12",
+    "@truffle/hdwallet-provider": "^1.4.1",
+    "dotenv": "^10.0.0"
+  },
+  "scripts": {
+    "test": "truffle test"
+  },
+  "author": "Olugbenga",
+  "license": "ISC"
+}
